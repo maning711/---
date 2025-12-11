@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>三国志：乱世英雄</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&display=swap');
+      
+      body {
+        font-family: 'Noto Serif SC', serif;
+        background-color: #f5f0e6; /* Parchment color */
+        color: #2c241b;
+      }
+      
+      .font-calligraphy {
+        font-family: 'Ma Shan Zheng', cursive;
+      }
+
+      .ink-border {
+        box-shadow: 0 0 0 2px #2c241b, 0 0 0 4px #f5f0e6, 0 0 0 6px #2c241b;
+      }
+      
+      /* Custom scrollbar for log */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #eaddcf; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #8c7b6c; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #5d5045; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.560.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
